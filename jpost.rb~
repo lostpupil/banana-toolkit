@@ -26,11 +26,11 @@ puts "your post categroy is #{category}"
 ###post categroy
 
 ###post descripiton
-puts "Please enter the post description"
+puts "Please enter the post descripiton"
 descripiton = $stdin.gets
-next_description = "description: #{description}"
+next_description = "descripiton: #{descripiton}"
 puts "your post descripiton is #{descripiton}"
-###post description
+###post descripiton
 
 
 
