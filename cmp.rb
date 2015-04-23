@@ -16,6 +16,8 @@ def comparator (a, b, dict)
     next if a[x] == b[x]
     return value =  dict.rindex(a[x]) <  dict.rindex(b[x]) ? 1 : -1
   end
+  return 1 if a.length < b.length
+  return -1 unless a.length < b.length
   return 0
 end
 
@@ -30,3 +32,7 @@ opt_array.map.with_index do |x,i|
   x.sort { |a, b| comparator(a,b,dict[i]) }.reverse.map { |e| puts e  }
 end
 
+a = "HOW"
+b = "HOWEVER"
+dict = "UVWXYZNOPQRSTHIJKLMABCDEFG"
+p comparator(a,b,dict)
