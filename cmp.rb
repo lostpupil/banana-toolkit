@@ -25,7 +25,7 @@ number_array.each do |x|
   remain_array = remain_array.drop(x)
 end
 
-opt_array.each_with_index do |x,i|
+opt_array.map.with_index do |x,i|
   puts "year #{i+1}"
   x.sort { |a, b| comparator(a,b,dict[i]) }.reverse.map { |e| puts e  }
 end
