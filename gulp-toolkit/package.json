@@ -1,0 +1,22 @@
+{
+  "name": "gulp-toolkit",
+  "description": "a toolkit for sass convert",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-cache": "*",
+    "gulp-coffee": "*",
+    "gulp-imagemin": "*",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "tiny-lr": "*"
+  }
+}
