@@ -39,7 +39,7 @@ if [[ -o interactive ]]; then
     # print "\e[35m$HOST \e[0m\:\:\e[36m$PWD\e[0m" 
     print "${bldylw}Welcome Back $whoiam!  ${bldcyn}May the source be with you!"
     print "${bldwht}==========================================="
-    gsort -R  pieces | head -n1
+    gsort -R  ~/pieces | head -n1
     print "${bldwht}==========================================="
 fi
 
