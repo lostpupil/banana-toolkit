@@ -9,7 +9,7 @@ banana-toolkit
 
 ###cmotd/greet.sh
 
-一个bash小脚本，用途是每次你新开命令行窗口的时候就会输出一段信息，使用方法，把文件复制到`.zshrc`同一级目录下面。然后在`.zshrc`或者`.bashrc`中添加：
+一个bash小脚本，用途是每次你新开命令行窗口的时候就会输出一段信息，使用方法，把`pieces`和`greet.sh`文件复制到`.zshrc`同一级目录下面。然后在`.zshrc`或者`.bashrc`中添加：
 
 ```bash
 source ~/greet.sh
