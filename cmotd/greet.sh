@@ -35,11 +35,15 @@ bakcyn='\e[46m'   # Cyan
 bakwht='\e[47m'   # White
 txtrst='\e[0m'    # Text Reset
 
+now=$(date +"%T")
+
 if [[ -o interactive ]]; then
     # print "\e[35m$HOST \e[0m\:\:\e[36m$PWD\e[0m" 
-    print "${bldylw}Welcome Back $whoiam!  ${bldcyn}May the source be with you!"
-    print "${bldwht}==========================================="
+    print "${txtgrn}Someone says: ${bldcyn}"
     gsort -R  ~/pieces | head -n1
-    print "${bldwht}==========================================="
+    print "${bldwht}====================================================="
+    print "${bldylw}Welcome Back $whoiam!  ${bldbly}May the source be with you!"
+    print "${bldgrn}Current time: ${txtpur}${now}"
+    print "${bldwht}====================================================="
 fi
 
